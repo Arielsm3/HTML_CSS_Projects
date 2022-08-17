@@ -1,0 +1,78 @@
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    
+}
+
+h1 {
+    padding: 12px;
+    color: red;
+    text-align: center;
+
+}
+
+h2 {
+    color: rgb(167, 1, 1)
+}
+
+pre {
+    font-size: large;
+    color: azure;
+}
+
+body {
+    background-color: rgb(107, 132, 212);
+    
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+table {
+    justify-items: center;
+
+    margin: 30px;
+    padding: 20px;
+
+    border: 1px;
+    border: solid;
+    border: black;
+
+    width: fit-content;
+}
+
+td, th {
+    justify-items: center;
+
+    border: solid;
+    border: 2px;
+
+    color: black;
+    padding: 10px;
+}
+
+.card-grid {
+    justify-content: center;
+
+    
+    color:rgb(245, 11, 11);
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    
+    grid-gap: 25px;
+
+    padding: 25px;
+    border:solid, 5px, rgb(245, 11, 11);
+}
+card {
+    justify-self: center;
+
+    padding: 10px;
+
+    border: solid;
+    border:32px, rgb(245, 11, 11);
+    
+    
+}
